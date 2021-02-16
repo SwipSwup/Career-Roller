@@ -6,12 +6,14 @@
     <!--Für Advanced löschen-->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Career-Roller</title>
+    <script src="../js/main.js"></script>
+    <script src="../js/CareerLoader.js"></script>
 </head>
 <body>
     <!--Ids für Javascript:
-    title: career-title
-    place: career-place
-    description: career-desc
+    title: course-title
+    place: course-place
+    description: course-desc
 
     button: button
     -->
@@ -59,3 +61,7 @@
     </div>
 </body>
 </html>
+<script>
+    let loader = new CareerLoader('../../resources/careers.json');
+    //loader.getData().then(data => console.log(data));
+</script>
