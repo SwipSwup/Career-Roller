@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06ac923-6776-4b73-aa4c-78e78bbd704b" name="Default Changelist" comment="" />
+    <list default="true" id="c06ac923-6776-4b73-aa4c-78e78bbd704b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Fetch.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oFO6IQvUTFR9mfN8ocbrvVXEZL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,6 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sew-4ai" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,11 +50,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612878695125</updated>
-      <workItem from="1612878696203" duration="2429000" />
+      <workItem from="1612878696203" duration="5515000" />
+      <workItem from="1613932515728" duration="392000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="294" key="FileChooserDialogImpl" timestamp="1613932592256">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1060" y="294" key="FileChooserDialogImpl/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1613932592256" />
   </component>
 </project>
