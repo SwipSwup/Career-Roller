@@ -5,11 +5,20 @@ class CareerLoader {
         this.courses = [];
 
         this.loadJson(url).then(data => {
-            data.map(course => this.courses.push(new Array(
-                course.title,
-                course.place,
-                course.description
+            data.map(course => this.courses.push(new Course(
+                course["Titel"],
+                course["Place"],
+                course["Description"]
             )));
+            // console.log(data);
+            // console.log(Object.keys( data[1]));
+            // console.log(data[1]["Titel"]);
+            // for (let index in data) {
+            //     console.log()
+            //}
+            // console.log(course.place),
+            // console.log(course.description),
+
         }).then(() => console.log(this.courses))
     }
 
@@ -19,7 +28,15 @@ class CareerLoader {
             .then(data => data);
     }
 
-    getData() {
-        return this.courses;
+    async getRandomCourse() {
+        return this.courses[Math.floor(Math.random() * this.courses.length)];
+    }
+}
+
+class Course {
+    constructor(title, place, description) {
+        this.title = title;
+        this.place = place;
+        this.description = description;
     }
 }
