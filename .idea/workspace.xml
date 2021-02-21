@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06ac923-6776-4b73-aa4c-78e78bbd704b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e186586d-7269-4c87-a092-aa6ba3779005" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/Careers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/CareerLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Course.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Fetch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -23,35 +22,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1oFO6IQvUTFR9mfN8ocbrvVXEZL" />
+  <component name="ProjectId" id="1oYyjn8cwGqDcHqU2B3YTaigJPo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sew-4ai" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Career-Roller\resources" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c06ac923-6776-4b73-aa4c-78e78bbd704b" name="Default Changelist" comment="" />
-      <created>1612878695125</created>
+      <changelist id="e186586d-7269-4c87-a092-aa6ba3779005" name="Default Changelist" comment="" />
+      <created>1613477955259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612878695125</updated>
-      <workItem from="1612878696203" duration="5515000" />
-      <workItem from="1613932515728" duration="392000" />
+      <updated>1613477955259</updated>
+      <workItem from="1613477956288" duration="6253000" />
     </task>
     <servers />
   </component>
@@ -59,9 +61,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="294" key="FileChooserDialogImpl" timestamp="1613932592256">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1613482652382">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="1060" y="294" key="FileChooserDialogImpl/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1613932592256" />
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1613482652382" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1613483690674">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1613483690674" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1613482415917">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1613482415917" />
   </component>
 </project>
