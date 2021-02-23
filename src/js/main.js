@@ -1,23 +1,14 @@
-let title;
-let place;
-let desc;
+const title = document.getElementById("career-title");
+const place = document.getElementById("career-place");
+const desc = document.getElementById("career-desc");
 
-let courses;
+let courses = [];
 
-window.onload = () => {
-    courses = [];
-
-    title = document.getElementById("career-title");
-    place = document.getElementById("career-place");
-    desc = document.getElementById("career-desc");
-
-    fetchData('../../resources/Careers.json');
-}
+window.onload = () => fetchData('../../resources/Careers.json');
 
 function fetchData(url) {
     fetch(url)
         .then(response => response.json())
-        .then(data => data)
         .then(data => {
             data.map(course => courses.push(new Course(
                 course["Titel"],
@@ -28,10 +19,10 @@ function fetchData(url) {
 }
 
 function setRandomJob() {
-    const course = courses[Math.floor(Math.random() * courses.length)];
-    title.innerHTML = course.getTitle();
-    place.innerHTML = course.getPlace();
-    desc.innerHTML = course.getDesc();
+    const rdmCourse = courses[Math.floor(Math.random() * courses.length)];
+    title.innerHTML = rdmCourse.getTitle();
+    place.innerHTML = rdmCourse.getPlace();
+    desc.innerHTML = rdmCourse.getDesc();
 }
 
 class Course {
@@ -41,15 +32,9 @@ class Course {
         this.description = description;
     }
 
-    getTitle() {
-        return this.title;
-    }
+    getTitle = () => this.title;
 
-    getPlace() {
-        return this.place;
-    }
+    getPlace = () => this.place;
 
-    getDesc() {
-        return this.description;
-    }
+    getDesc = () => this.description;
 }
