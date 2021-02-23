@@ -4,7 +4,7 @@ const desc = document.getElementById("career-desc");
 
 let courses = [];
 
-window.onload = () => fetchData('../../resources/Careers.json');
+window.onload = () => fetchData('../../resources/careers.json');
 
 function fetchData(url) {
     fetch(url)
@@ -15,6 +15,6 @@ function fetchData(url) {
 function setRandomJob() {
     const rdmCourse = courses[Math.floor(Math.random() * courses.length)];
     title.innerHTML = rdmCourse['Titel'];
-    place.innerHTML = rdmCourse['Place'];
+    place.innerHTML = rdmCourse['Province'];
     desc.innerHTML = rdmCourse['Description'];
 }
